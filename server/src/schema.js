@@ -18,7 +18,7 @@ const typeDefs = gql`
     "Similar to HTTP status code, represents the status of the mutation"
     code: Int!
     "Indicates whether the mutation was successful"
-    sucess: Boolean!
+    success: Boolean!
     "Human-readable message for the UI"
     message: String!
     "Newly updated track after a successful mutation"
